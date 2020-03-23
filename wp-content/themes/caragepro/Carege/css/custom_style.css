@@ -1,0 +1,1293 @@
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url('../fonts/gotham_ssv/Gotham-Thin.otf');
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('../fonts/gotham_ssv/Gotham-Medium.otf');
+}
+
+html,
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Gotham-Book' !important;
+    font-weight: bold;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.ftco-navbar-light {
+    background: #1e191a!important;
+    position: absolute;
+    top: unset !important;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.ftco-section.services {
+    background: url('../images/back-min.png');
+    border-radius: 0px !important;
+    padding: 0em 0;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3em 0em;
+}
+
+.services-wrap:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    content: '';
+    height: 140px;
+    background: unset;
+}
+
+.about-section .About-Caragepro {
+    background: #1e191a;
+}
+
+.about-section .heading-section h2 {
+    color: #4cbb7c;
+    font-size: 33px;
+}
+
+.about-section {
+    color: #ffffff;
+}
+
+.Membership-Club .heading-section h2 {
+    text-align: left !important;
+    color: #4bba7b;
+}
+
+.subscribe-section {
+    background-color: #1e191a !important;
+}
+
+.subscribe-form .form-group .submit {
+    color: #fff !important;
+    background: #436a9a !important;
+    border-radius: 10px !important;
+    font-size: 15px;
+    border: unset !important;
+    position: relative;
+    left: 25px;
+    font-weight: bold;
+}
+
+.subscribe-form .form-group input {
+    background: transparent !important;
+    border: unset !important;
+    /* color: rgb(33, 40, 49) !important; */
+    font-size: 16px;
+    /* border-radius: 5px 0px 0px 5px; */
+    border-bottom: 1px solid #fff !important;
+    border-radius: unset !important;
+    margin-right: 5px;
+}
+
+.map-section {
+    padding: 0em 0 !important;
+}
+
+.submit-action {
+    display: flex;
+    justify-content: left;
+}
+
+.submit-action .btn.btn-primary {
+    background: #436a9a !important;
+    border: 1px solid #436a9a !important;
+    font-weight: bold !important;
+    width: 30%;
+    border-radius: 5px !important;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 12px !important;
+}
+
+.ftco-footer .ftco-footer-widget ul li a {
+    color: #fff;
+    font-size: 13px;
+}
+
+span.blog-data {
+    font-size: 12px;
+}
+
+footer input.form-control,
+footer textarea.form-control {
+    background: transparent !important;
+    border: unset;
+    border-bottom: 1px solid #fff;
+    border-radius: unset;
+}
+
+.copyright {
+    padding: 1rem 0;
+    background-color: #1e191a;
+}
+
+.copyright ul {
+    display: flex;
+}
+
+.copyright ul li {
+    padding-right: 10px;
+}
+
+.copyright ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.services .services-wrap .services {
+    box-shadow: unset;
+    border-radius: unset;
+    background: unset;
+    padding: 25px;
+}
+
+.services-wrap .services .icon {
+    width: 100px;
+    height: 100px;
+    border-radius: unset;
+    margin: 0 auto;
+    background: inherit;
+    margin-bottom: 10px;
+}
+
+.services .icon span {
+    color: #4ab578;
+    font-size: 30px;
+}
+
+.services .text h3 {
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.services .text p {
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.about-section-image {
+    padding-right: unset;
+    padding-left: unset;
+}
+
+.about-section .About-Caragepro .heading-section {
+    /* max-width: 415px; */
+    margin: 0 auto;
+    padding: 30px;
+    margin: 50px 100px;
+}
+
+.about-section .About-Caragepro .heading-section p {
+    font-size: 13px;
+}
+
+section.ftco-section.Membership-Club {
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/new.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 3em 0;
+}
+
+section.ftco-section.Membership-Club .box {
+    background-color: #fff;
+    padding: 70px 0px;
+}
+
+.col-md-3.box.featured-plan {
+    margin: -1rem 0px;
+    background-color: #eef7fc;
+    /* border-top: 5px solid #8cd0f5;
+      border-right: 0 solid transparent;
+      border-bottom: 5px solid #8cd0f5;
+      border-left: 0 solid transparent; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+section.ftco-section.Membership-Club .btn-primary {
+    background: #436a9a !important;
+    border: 1px solid #436a9a !important;
+    color: #fff !important;
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.about-page {
+    height: 300px !important;
+    background-position: 52% 60% !important;
+}
+
+.about-page .slider-text {
+    height: 315px !important;
+}
+
+.history {
+    background: url('../images/Caragepro_Website_About-01\ copy.jpg');
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-about {
+    background-color: #fff !important;
+    position: relative;
+    z-index: 2;
+}
+
+.contact-about .contact-box {
+    background-color: #1e191a !important;
+    position: relative;
+    top: 60px;
+}
+
+.our-services-icon {
+    padding: 5em 0;
+    background: #e7e7e7 !important;
+}
+
+.practice-area {
+    display: block;
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    position: relative;
+    background: #fff;
+}
+
+.our-services-icon .practice-area .icon {
+    width: auto !important;
+    height: unset !important;
+    border-radius: 50%;
+    background: unset !important;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.practice-area:hover .icon span,
+.practice-area:focus .icon span {
+    color: unset;
+}
+
+.Terms-and-Conditions {
+    background-color: #fff;
+    padding: 70px !important;
+}
+
+.subscribe-section-bg {
+    background-color: #4bba7b !important;
+}
+
+section.ftco-section.Membership-Club.Membership-Club-page {
+    background: url('../images/b2.png') !important;
+    padding: 5em 0;
+}
+
+.Membership-Club-page .col-md-3.box {
+    background-color: #fff;
+    margin: 0 auto;
+    margin-right: 1%;
+    padding: 30px;
+}
+
+.hero-wrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .1;
+    background: #000000;
+}
+
+
+/* .card-image{
+      width: 45%;
+      float: left;
+  } */
+
+.card-image img {
+    min-height: 330px;
+}
+
+.card-body {
+    width: 45%;
+    float: right;
+}
+
+p.blog-desc {
+    font-size: 10px;
+    margin: 29px 0px;
+    font-weight: bold;
+    color: #000;
+}
+
+.blog-date span {
+    font-size: 12px;
+    color: #436a9a;
+    font-weight: normal;
+}
+
+.blog-page {
+    background: #e7e7e7 !important;
+}
+
+.block-27.blog-progress ul li.active span {
+    background: #e7e7e7;
+    color: #4bba7b;
+    border: 1px solid #d2cbcb;
+    border-radius: 0px;
+    font-weight: bold;
+}
+
+.block-27 ul li a {
+    color: #000;
+}
+
+.searh-form,
+.reacent-posts {
+    position: relative;
+    background-color: #1e191a;
+    padding: 36px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.searh-form input {
+    background-color: transparent !important;
+    border: unset;
+    border-bottom: 1px solid #fff;
+    /* border: unset; */
+    border-radius: 0px;
+}
+
+.searh-form i {
+    position: absolute;
+    top: 41px;
+    right: 65px;
+    color: #fff;
+}
+
+::placeholder {
+    color: #fff !important;
+}
+
+.reacent-posts li {
+    color: #fff;
+    font-size: 12px;
+}
+
+.reacent-posts li img {
+    width: 7px;
+    /* padding-right: 10px; */
+    position: relative;
+    right: 6px;
+}
+
+.reacent-posts ul {
+    list-style: none;
+}
+
+.subscribe-section-bg {
+    background-color: #4bba7b !important;
+    padding: 20px !important;
+}
+
+.subscribe-section-bg h2 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+::placeholder {
+    color: #fff !important;
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item.active>a {
+    color: #49b578 !important;
+}
+
+.slider-text h1 {
+    font-size: 80px;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+
+/* .lin-services {
+    background: url('../images/psd/lin.png') cover 100% !important;
+} */
+
+.ftco-section.services {}
+
+.ftco-section.services img {
+    width: 55px;
+}
+
+.about-section-image {
+    background: url(../images/psd/pictur_min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+
+/* .services-img-car {
+    background: url(../images/psd/cars-min.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+} */
+
+.services-img-car {
+    padding-left: unset !important;
+}
+
+.services-img-car img {
+    width: 480px;
+    position: relative;
+    top: 25%;
+}
+
+.service-section h2 {
+    color: #4bba7b;
+    font-weight: bold;
+}
+
+.serv-box img {
+    max-width: 50px;
+    height: auto;
+    max-height: 50px;
+}
+
+.serv-box h5 {
+    font-weight: bolder;
+    font-size: 15px;
+    padding-top: 11px;
+    color: #000 !important;
+}
+
+.serv-box p {
+    font-size: 13px;
+}
+
+.recent-blogs {
+    background: #4bba7b !important;
+}
+
+.blog-entry {
+    /* background: url('../images/psd/manwater.png') !important; */
+}
+
+.blog-entry .text {
+    position: relative;
+    background: inherit;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.post-box {
+    opacity: 0;
+    /* visibility: hidden; */
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/manwater.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 4%;
+}
+
+.recent-blogs .card.card1 {
+    background: url('../images/cr.png') !important;
+}
+
+.recent-blogs .card .card-body {
+    width: 100%;
+    float: none;
+}
+
+.recent-blogs .card .card-body a {
+    background-color: #4272aa !important;
+    border-color: #4272aa !important;
+}
+
+.subscribe-section h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+.subscribe-section {
+    background-color: #1e191a !important;
+    padding: 3em 0;
+}
+
+.contact-section .h3 {
+    color: #4bba7b !important;
+    font-weight: bold;
+}
+
+.input-filed-form .form-group {
+    width: 33.33333%;
+    margin-right: 3%;
+}
+
+.last-form-group {
+    margin-right: 0% !important;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+    background-color: #e9e9e9 !important;
+    color: #000 !important;
+    border-radius: unset !important;
+}
+
+::placeholder {
+    color: #000 !important;
+}
+
+.submit-action input {
+    font-weight: normal !important;
+    border-radius: 5px !important;
+}
+
+.contact-section {
+    padding-bottom: 1em !important;
+}
+
+.ftco-footer {
+    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../images/psd/raselbar_compressor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 170px;
+}
+
+.ftco-footer .ftco-footer-widget h2 {
+    font-weight: bold !important;
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.ftco-footer p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0px !important;
+}
+
+ul.ftco-footer-social.list-unstyled.float-md-left.float-lft {
+    margin-top: 19px;
+}
+
+.ftco-footer-social li a {
+    height: 45px;
+    width: 45px;
+    display: block;
+    float: left;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    position: relative;
+}
+
+.ftco-footer .ftco-footer-widget ul li a:hover {
+    color: #436a9a !important;
+}
+
+.ftco-footer .ftco-footer-widget ul li a {
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+footer input.form-control ::placeholder,
+footer textarea.form-control ::placeholder {
+    color: #fff !important;
+}
+
+footer input.form-control::placeholder,
+footer textarea.form-control::placeholder {
+    color: #e9e9e9e7 !important;
+    font-weight: normal !important;
+    font-size: 13px;
+}
+
+.copyright p {
+    color: #fff;
+    font-weight: bold;
+}
+
+.contact-section .submit-action {
+    display: flex;
+    justify-content: center;
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
+    font-size: 15px;
+    padding-top: .9rem;
+    padding-bottom: .9rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    font-weight: bold;
+    opacity: 1 !important;
+}
+
+.ftco-footer .ftco-footer-widget ul li a:hover span {
+    color: #436a9a;
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover {
+    color: #4bba7b;
+}
+
+.history {
+    /* background: #1e191a; */
+}
+
+.card-image {
+    position: relative;
+}
+
+.recent-blogs .card .card-body {
+    position: absolute;
+    /* text-align: center; */
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    color: #fff;
+    /* background-color: rgba(0, 0, 0, .5); */
+    padding: 20px;
+}
+
+.blog-date span {
+    font-size: 12px;
+    color: #436a9a;
+    font-weight: bold;
+}
+
+.recent-blogs .heading {
+    font-weight: bold;
+    color: #fff;
+}
+
+.recent-blogs p.blog-desc {
+    font-size: 12px;
+    margin: 60px 0px;
+}
+
+.recent-blogs .heading {
+    font-weight: bold;
+    color: #fff;
+    margin: 30px 0px 0px;
+}
+
+.recent-blogs .card .card-body a {
+    font-weight: bold;
+}
+
+.plan-text h5 {
+    font-weight: bold;
+    color: #000;
+}
+
+.recent-blogs .card.first-box .card-body {
+    position: absolute;
+    /* text-align: center; */
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 20px;
+}
+
+.recent-blogs .heading-section h2,
+.recent-blogs .heading,
+h2,
+h3,
+h5,
+.ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
+    color: #fff;
+    font-family: 'Gotham-Medium' !important;
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
+    font-weight: normal;
+}
+
+strong {
+    font-family: 'Gotham-Medium' !important;
+    font-size: 20px;
+}
+
+.plan-text span {
+    font-weight: bold;
+    color: #000;
+    font-size: 13px;
+}
+
+.price-data {
+    padding: 20px 0;
+}
+
+.subscribe-form {
+    width: 75% !important;
+}
+
+section.ftco-section.Membership-Club .box {
+    background-color: #fff;
+    /* padding: 30px; */
+}
+
+.subscribe-form input.form-control ::placeholder {
+    color: #fff !important;
+    font-family: 'Gotham-Medium' !important;
+}
+
+.about-page .slider-text .bread {
+    font-size: 45px;
+}
+
+
+/* .history {
+    position: relative;
+    display: block;
+}
+.history:before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: url('../images/psd/lin.png');
+} */
+
+.history p {
+    color: #fff;
+    font-size: 13px;
+}
+
+.history {
+    position: relative;
+}
+
+.history-img {
+    position: absolute;
+}
+
+.history-text {
+    padding: 40px 85px 60px;
+}
+
+.history-img {
+    position: absolute;
+    width: 200px;
+    bottom: -85px;
+    left: -21px;
+}
+
+.testimony-section .heading-section .subheading {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #4bba7b;
+}
+
+.testimony-section .mb-4 {
+    color: #000;
+}
+
+.testimony-section .item {
+    position: relative;
+}
+
+.testimony-section .title-text {
+    position: absolute;
+    bottom: 0px;
+    left: 75px;
+}
+
+.testimony-section .owl-dots .owl-dot {
+    width: 10px;
+    margin: 6px;
+    margin: 9px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.testimony-section .title-text h5 {
+    margin-bottom: 0 !important;
+}
+
+.testimony-section .title-text p {
+    color: #fff;
+}
+
+.contact-about {
+    background-color: unset !important;
+}
+
+.subscribe-section.subscribe-section-bg {
+    background-color: #4bba7b !important;
+    padding: 2em 0 !important;
+}
+
+.blog-page .card-image {
+    position: relative;
+    width: 45%;
+    float: left;
+}
+
+.blog-page .card-body {
+    width: 55%;
+    float: right;
+    padding: 57px !important;
+}
+
+.blog-page .heading {
+    color: #000;
+}
+
+.practice-area h3 {
+    font-size: 15px;
+}
+
+.serv-box {
+    margin-right: 10px !important;
+}
+
+.our-services-icon .practice-area .icon {
+    height: 80px !important;
+}
+
+.practice-area h3 {
+    font-size: 14px;
+}
+
+.terms-data h4 {
+    /* color: #000 !important; */
+    /* font-weight: bold !important; */
+    font-family: 'Gotham-Medium' !important;
+    font-size: 18px;
+}
+
+.terms-box {
+    padding: 80px !important;
+}
+
+.terms-box p {
+    font-family: 'Gotham-Medium' !important;
+    color: #000;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.serv-box p,
+.plan-text p,
+.plan-text span {
+    font-family: 'Gotham-Medium' !important;
+    color: #000;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+section.ftco-section.Membership-Club .btn-primary {
+    font-weight: normal;
+    font-family: 'Gotham-Medium' !important;
+}
+
+.blog-page .card-image img {
+    height: auto;
+    /* width: 260px; */
+    height: 360px;
+    min-height: unset;
+}
+
+.blog-page .heading,
+.block-27.blog-progress ul li.active span,
+.blog-page .reacent-posts h4,
+.block-27 ul li a {
+    font-family: 'Gotham-Medium' !important;
+    font-weight: bold;
+}
+
+.blog-page p.blog-desc,
+.blog-page .blog-date span,
+.history p,
+.submit-action .btn.btn-primary {
+    font-family: 'Gotham-Medium' !important;
+    font-weight: normal;
+}
+
+.testimony-section .mb-4 {
+    font-family: 'Gotham-Medium' !important;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.contact-about .contact-box p {
+    font-family: 'Gotham-Medium' !important;
+    font-weight: normal;
+    color: #fff;
+    font-size: 15px;
+}
+
+footer .form-control {
+    color: #fff !important;
+}
+
+.recent-blogs p.blog-desc {
+    font-size: 12px;
+    margin: 60px 0px;
+    color: #fff;
+}
+
+.recent-Partners {
+    background: transparent !important;
+}
+
+.recent-Partners .heading-section h2 {
+    color: #000;
+}
+
+.recent-Partners img {
+    max-width: 150px;
+}
+
+.testimony-section .owl-dots .owl-dot.active {
+    background: #1e191a;
+}
+
+.recent-Partners img {
+    max-width: 150px;
+    max-height: 50px;
+}
+
+.services .history-img {
+    position: absolute;
+    width: 200px !important;
+    bottom: 15px;
+    left: 53px;
+}
+
+.services {}
+
+.Membership-Club .owl-carousel .owl-dots {
+    display: none;
+}
+
+
+/* responsive */
+
+@media(max-width:767px) {
+    .slider-text h1 {
+        font-size: 60px;
+    }
+    .about-section .About-Caragepro .heading-section {
+        margin: 10px 0px;
+    }
+    .services-img-car img {
+        width: 390px;
+        position: relative;
+        top: 0%;
+    }
+    .recent-Partners img {
+        max-width: 160px;
+        max-height: 100px;
+        margin: 0 auto;
+        display: flex;
+        margin-bottom: 40px;
+    }
+    .ftco-footer {
+        padding: 5em 0 3em 0 !important;
+    }
+    .copyright ul li a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 11px;
+    }
+    .contact-section .contact-form {
+        width: 100%;
+        padding: 0em !important;
+    }
+    .input-filed-form.d-flex {
+        display: block !important;
+    }
+    .input-filed-form .form-group {
+        width: 100%;
+        margin-right: 0% !important;
+    }
+    .submit-action .btn.btn-primary {
+        width: auto;
+    }
+    .subscribe-form {
+        width: 95% !important;
+    }
+    .subscribe-section h2 {
+        color: white;
+        font-size: 22px;
+        font-weight: bolder;
+        margin-bottom: 25px !important;
+    }
+    .history {
+        background: url(../images/Caragepro_Website_About-01\ copy.jpg);
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+    .history .history-text {
+        padding: 40px 30px 60px;
+    }
+    .Membership-Club-plans {
+        display: block !important;
+    }
+    .Membership-Club-plans .box {
+        margin-bottom: 10px !important;
+    }
+    .Terms-and-Conditions {
+        background-color: #fff;
+        padding: 20px !important;
+    }
+    .terms-box {
+        padding: 20px !important;
+    }
+    .blog-page .card-image {
+        width: 100%;
+    }
+    .blog-page .card-body {
+        width: 100%;
+        padding: 20px !important;
+    }
+    .recent-blogs .card {
+        margin-bottom: 10px;
+    }
+    .about-section-image {
+        height: 100vh;
+    }
+    .copy1 {
+        order: 2;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .services {
+        margin-bottom: 0px;
+    }
+}
+
+.ftco-animate {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+::placeholder {
+    color: #eef7fc !important;
+}
+
+.subscribe-form .form-group input {
+    color: #eef7fc !important;
+}
+
+.contact-section .form-control::placeholder {
+    color: #000000 !important;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+footer .form-control::placeholder {
+    color: #eef7fc !important;
+}
+
+.simple-portfolio .case:after {
+    background: #4cba7c !important;
+}
+
+.subscribe-section-bg .form-group input::placeholder {
+    color: #eef7fc !important;
+    font-weight: bold;
+}
+
+
+/* @media (max-width:991px) {
+
+} */
+
+.service-section .About-Caragepro {
+    margin-left: 130px !important;
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
+    font-family: 'Gotham-Book' !important;
+    font-weight: bold;
+}
+
+.price-data p {
+    direction: ltr;
+}
+
+.sk-instagram-feed {
+    background-color: transparent !important;
+}
+
+.sk-instagram-feed a {
+    display: none !important;
+}
+
+@media (max-width:767px) {
+    .searh-form i {
+        position: absolute;
+        top: 50px;
+        right: 65px;
+        color: #fff;
+    }
+    .reacent-posts {
+        position: relative;
+        background-color: #1e191a;
+        padding: 20px 10px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .service-section .About-Caragepro {
+        margin-left: 0px !important;
+    }
+    .service-section .About-Caragepro li .icon {
+        justify-content: center;
+    }
+    .serv-box {
+        margin-right: 0px !important;
+        display: block;
+        margin: 0 auto;
+        text-align: center !important;
+        margin-bottom: 30px;
+    }
+    section.ftco-section.Membership-Club {
+        background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/new.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 3em 0;
+    }
+    .contact-about .contact-box {
+        background-color: #1e191a !important;
+        position: relative;
+        top: 0px;
+    }
+    .contact-about .contact-box .d-flex {
+        display: block !important;
+    }
+    .heading-section h2 {
+        font-size: 27px;
+    }
+}
+
+.ftco-footer .ftco-footer-widget img {
+    margin-right: 7px;
+    width: 6px;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #53ba7c;
+    width: 80px;
+    height: 80px;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
+
+
+/* Safari */
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.searh-form input.form-control {
+    color: #fff !important;
+}
+
+.ftco-section.Membership-Club .owl-carousel .owl-nav {
+    display: block;
+}
+
+.ftco-section.Membership-Club .owl-carousel .owl-nav .owl-prev,
+.ftco-section.Membership-Club .owl-carousel .owl-nav .owl-next {
+    color: #4cbb7c !important;
+}
+
+@media(max-width:767px) {
+    .ftco-section.Membership-Club .owl-carousel .owl-nav .owl-prev {
+        left: 12px !important;
+    }
+    .ftco-section.Membership-Club .owl-carousel .owl-nav .owl-next {
+        right: 12px !important;
+    }
+}
+
+.owl-carousel .owl-nav .owl-prev span:before,
+.owl-carousel .owl-nav .owl-next span:before {
+    font-size: 45px;
+}
